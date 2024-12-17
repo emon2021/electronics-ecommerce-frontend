@@ -88,7 +88,7 @@ $(document).ready(function () {
     $('.main_slider').slick({
         dots: false,
         infinite: true,
-        autoplay:true,
+        autoplay:false,
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
