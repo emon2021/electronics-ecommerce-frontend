@@ -47,8 +47,8 @@ $(document).ready(function () {
         autoplay:true,
         speed: 300,
         arrows:false,
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         responsive: [
           {
             breakpoint: 1400,
