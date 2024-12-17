@@ -44,6 +44,9 @@
         ">
             <div class="wrapper
             lg:px-0
+            flex
+            justify-between
+            items-center
             ">
                 <div class="
                 left text-white
@@ -67,7 +70,8 @@
                     md:flex
                     md:gap-6
                     md:border-0
-                    md:justify-center
+                    md:justify-start
+                    
                     ">
                         
                         <li class="">
@@ -104,7 +108,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="right"></div>
+                <div class="right">
+                    <p class="text-white">
+                        <a href="#" class="text-sm">Login/Register</a>
+                    </p>
+                </div>
             </div>
         </div>
         
@@ -119,13 +127,20 @@
                     relative
                     ">
                         <a href="#" id="Categories" class="flex text-md items-center uppercase
-                        gap-2 font-semibold
+                        gap-4 font-semibold
                         text-lg
-                        
+                        tracking-widest
                         lg:bg-orange-600
-                        lg:px-8 lg:py-2
+                        lg:px-3 lg:py-2
                         rounded
+                        lg:-ml-10
+                        lg:w-[17.5rem]
+                        lg:justify-between
                         ">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                          </svg>
+                          
                             categories
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6-7.5 7.5-7.5-7.5" />
@@ -327,6 +342,7 @@
                         flex
                         items-center
                         relative
+                        w-full
                         ">
                             <input class="
                             text-sm
@@ -353,18 +369,35 @@
                         </div>
                     </li>
                     
-                    <li class="flex gap-4">
-                        <a href="" class="flex text-md items-center uppercase
+                    <li class="flex gap-4
+                    relative
+                    ">
+                        <a href="javascript:void(0)" class="flex text-md items-center uppercase
                         gap-2 font-bold
                         hover:text-gray-400
                         text-xl
                         md:hidden
+                        mobile_search_icon
                         ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                           </svg>
                           
                         </a>
+                        <div class="mobile_search
+                        absolute
+                        -left-52
+                        top-10
+                        w-[22rem]
+                        hidden
+                        ">
+                            <input class="
+                            px-4
+                            py-1.5
+                            w-full
+                            shadow-lg
+                            " type="search" placeholder="Search Product">
+                        </div>
                         <a href="" class="flex text-md items-center uppercase
                         gap-2 font-bold
                         hover:text-gray-400
@@ -388,9 +421,10 @@
                         text-xl
                         
                         ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                          </svg>                          
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
+                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                          </svg>
+                                                   
                           
                         </button>
                     </li>

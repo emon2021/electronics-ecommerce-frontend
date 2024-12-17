@@ -22,6 +22,12 @@ $(document).ready(function () {
         
     });
     
+    let searchBtn = $('.mobile_search_icon');
+    let mobileSearch = $('.mobile_search');
+    searchBtn.click(()=>{
+       mobileSearch.toggleClass('hidden'); 
+    });
+    
     //  sticky navigation
     
     // $(window).scroll(function () {
