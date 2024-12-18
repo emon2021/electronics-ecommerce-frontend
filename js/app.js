@@ -96,5 +96,24 @@ $(document).ready(function () {
         
     });
     
+    //  product details slider
+    $('.slider_for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider_nav'
+    });
+    $('.slider_nav').slick({
+      slidesToShow: 3,
+      infinite:true,
+      slidesToScroll: 1,
+      asNavFor: '.slider_for',
+      dots: false,
+      centerMode: true,
+      focusOnSelect: true,
+      arrows:true
+    });
+    
     
 });

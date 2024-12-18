@@ -10,6 +10,18 @@
     
     
 }
+
+/* Custom CSS */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+
 .slick-slide{
     margin: 0 0.7rem;
 }
