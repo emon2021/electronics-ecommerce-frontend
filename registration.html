@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ecommerce</title>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- slick carousel css links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <!-- font-awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- tailwind css  -->
+    <link rel="stylesheet" href="css/tailwind.css">
+
+
+
+</head>
+
+<body class="font-poppins">
+    <!-- header section  -->
+    <header id="header" class="
+    w-full
+    top-0
+    z-50
+    
+    ">
+        <div class="
+        top_header
+        bg-gray-900
+        border-b border-gray-700
+        ">
+            <div class="wrapper">
+                <h3 class="text-center text-white py-2">
+                    <span class="text-sm">Free Shipping On All Orders Over $50</span>
+                </h3>
+            </div>
+        </div>
+
+        <div class="middle_header bg-gray-900 py-3
+        relative
+        ">
+            <div class="wrapper
+            lg:px-0
+            flex
+            justify-between
+            items-center
+            ">
+                <div class="
+                left text-white
+                lg:flex
+                lg:justify-between
+                
+                ">
+                    <img class="
+                    w-44
+                    mx-auto
+                    " src="images/logo_main.webp" alt="">
+
+                    <ul id="mobile_menu" class=" absolute top-[7.6rem] left-0
+                    bg-gray-900
+                    w-full
+                    border-t border-gray-700
+                    py-3 px-4
+                    hidden
+                    md:static
+                    md:w-full
+                    md:flex
+                    md:gap-6
+                    md:border-0
+                    md:justify-start
+                    
+                    ">
+
+                        <li class="">
+                            <a href="" class="flex text-sm items-center uppercase
+                            gap-2 
+                            ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+                                </svg>
+                                About us
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="" class="flex text-sm items-center uppercase
+                            gap-2 
+                            ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
+                                </svg>
+
+                                how to order
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="" class="flex text-sm items-center uppercase
+                            gap-2 
+                            ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                                </svg>
+
+                                Delivery information
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <p class="text-white">
+                        <a href="#" class="text-sm">Login/Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <nav id="nav" class="
+        bg-gray-900
+        text-white
+        py-3
+        ">
+            <div class="wrapper px-0 ">
+                <ul class="flex justify-between items-center">
+                    <li class="
+                    relative
+                    ">
+                        <a href="#" id="Categories" class="flex text-md items-center uppercase
+                        gap-4 font-semibold
+                        text-lg
+                        tracking-widest
+                        lg:bg-orange-600
+                        lg:px-3 lg:py-2
+                        rounded
+                        
+                        lg:w-[17.5rem]
+                        lg:justify-between
+                        ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+
+                            categories
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-4">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </a>
+                        <ul id="category_list" class="
+                        absolute
+                        bg-white
+                        top-10
+                        lg:top-[3.5rem]
+                        py-3
+                        border-t border-gray-300
+                        text-gray-900
+                        shadow-lg
+                        
+                        w-[18rem]
+                        rounded
+                        z-10
+                        hidden
+                        ">
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">New Arrival</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Best Seller</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Trending</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Accessories</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Shoes</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Bags</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Men's Clothing</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            hover:text-white
+                            py-1
+                            px-4
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Women's Clothing</a>
+                            </li>
+                            <li class="
+                            relative
+                            w-full
+                            flex
+                            items-center
+                            gap-2
+                            group
+                            hover:bg-gray-950
+                            py-1
+                            px-4
+                            pl-8
+                            hover:text-white
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Watches</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+
+                                <ul class="
+                                absolute
+                                -top-1
+                                left-72
+                                w-[18rem]
+                                bg-white
+                                shadow-lg
+                                text-gray-900
+                                py-3
+                                rounded
+                                group-hover:block
+                                transition-opacity duration-300 opacity-0 group-hover:opacity-100
+                                hidden
+                                ">
+                                    <li class="hover:bg-gray-950 hover:text-white px-4 py-1">
+                                        <a href="#" class="text-md
+                                font-semibold">Casio</a>
+                                    </li>
+                                    <li class="hover:bg-gray-950 hover:text-white px-4 py-1">
+                                        <a href="#" class="text-md
+                                font-semibold">Rolex</a>
+                                    </li>
+                                    <li class="hover:bg-gray-950 hover:text-white px-4 py-1">
+                                        <a href="#" class="text-md
+                                font-semibold">Fossil</a>
+                                    </li>
+                                    <li class="hover:bg-gray-950 hover:text-white px-4 py-1">
+                                        <a href="#" class="text-md
+                                font-semibold">Timex</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            py-1
+                            px-4
+                            hover:text-white
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Jewelry</a>
+                            </li>
+                            <li class="
+                            hover:bg-gray-950
+                            py-1
+                            px-4
+                            hover:text-white
+                            pl-8
+                            ">
+                                <a href="#" class="
+                                text-md
+                                font-semibold
+                                
+                                ">Accessories</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="
+                    hidden
+                    md:block
+                    md:w-full
+                    md:px-32
+                    lg:px-60
+                    ">
+                        <div class="
+                        flex
+                        items-center
+                        relative
+                        w-full
+                        ">
+                            <input class="
+                            text-sm
+                            py-2.5
+                            px-4
+                            rounded-md
+                            placeholder:text-gray-300
+                            placeholder:font-light
+                            placeholder:italic
+                            placeholder:tracking-wide
+                            w-full
+                            focus:outline-none
+                            text-gray-900
+                            " type="search" placeholder="Search Product">
+
+                            <button class="
+                            absolute
+                            focus:outline-none
+                            right-0
+                            z-10
+                            opacity-1
+                            bg-orange-600
+                            uppercase
+                            py-2
+                            px-4
+                            rounded-r-md
+                            tracking-widest
+                            " type="submit">
+                                Search
+                            </button>
+
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="
+                            size-6
+                            absolute
+                            right-2
+                            z-10
+                            text-gray-400
+                            ">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                              </svg>    -->
+                        </div>
+                    </li>
+
+                    <li class="flex gap-4
+                    relative
+                    ">
+                        <a href="javascript:void(0)" class="flex text-md items-center uppercase
+                        gap-2 font-bold
+                        hover:text-gray-400
+                        text-xl
+                        md:hidden
+                        mobile_search_icon
+                        ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+
+                        </a>
+                        <div class="mobile_search
+                        absolute
+                        -left-52
+                        top-10
+                        w-[22rem]
+                        hidden
+                        ">
+                            <input class="
+                            px-4
+                            py-1.5
+                            w-full
+                            shadow-lg
+                            " type="search" placeholder="Search Product">
+                        </div>
+                        <a href="" class="flex text-md items-center uppercase
+                        gap-2 font-bold
+                        hover:text-gray-400
+                        text-xl
+                        
+                        ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                            </svg>
+
+
+                        </a>
+                    </li>
+
+                    <li class="
+                    md:hidden
+                    ">
+                        <button id="humburger" class="flex text-md items-center uppercase
+                        gap-2 font-bold
+                        hover:text-gray-400
+                        text-xl
+                        
+                        ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="size-8">
+                                <path fill-rule="evenodd"
+                                    d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+
+
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    
+    <!-- registration form  -->
+    <section id="registration" class="
+     
+     py-10
+     ">
+        <div class="wrapper px-4 md:px-8 overflow-hidden
+        bg-white
+        rounded-md
+        lg:flex
+        shadow-lg
+        ">
+            <div class="
+            flex
+            flex-col
+            justify-center
+            md:w-1/2
+            lg:w-1/2
+            px-4
+            ">
+                <img class="
+                w-50 
+                mx-auto
+                
+                " src="./images/login.png" alt="">
+            </div>
+            <div class="
+            flex
+            flex-col
+            justify-center
+            md:w-1/2
+            lg:w-1/2
+            px-4
+            py-8
+            ">
+                <form action="#" class="">
+                    <div class="mb-4">
+                        <input type="text" class="
+                        border border-gray-300 
+                        w-full py-2 px-4 rounded-md
+                        
+                        " placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" class="
+                        border border-gray-300 
+                        w-full py-2 px-4 rounded-md
+                        
+                        " placeholder="Your Email">
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" class="
+                        border border-gray-300 
+                        w-full py-2 px-4 rounded-md
+                        
+                        " placeholder="Your Phone">
+                    </div>
+                    <div class="mb-4">
+                        <textarea placeholder="Your Address"  class="
+                        border border-gray-300 
+                        w-full py-2 px-4 rounded-md
+                        
+                        " rows="3" ></textarea>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <input type="password" class="
+                        border border-gray-300 
+                        w-full py-2 px-4 rounded-md
+                        
+                        " placeholder="Password">
+                    </div>
+                    <div class="mb-4">
+                        <input type="password" class="
+                        border border-gray-300 
+                        w-full py-2 px-4 rounded-md
+                        
+                        " placeholder="Confirm Password">
+                    </div>
+                    <div class="mb-4">
+                        <input type="submit" class="
+                        border border-gray-300 
+                        w-100 py-2 px-4 rounded-md
+                        bg-gray-900 text-white
+                        hover:bg-orange-500 transition-colors duration-300
+                        float-end
+                        cursor-pointer
+                        " value="Register">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <!-- newsletter  -->
+    <section id="newsletter" class="
+     bg-gray-900
+     py-10
+     ">
+        <div class="wrapper px-0 overflow-hidden">
+            <div class="
+            flex
+            justify-center
+            flex-col
+            lg:flex-row
+            items-center
+            lg:justify-between
+            lg:gap-4
+            ">
+                <div class="
+                hidden
+                lg:flex
+                lg:w-2/5
+                text-white
+                lg:items-center
+                lg:gap-4
+                
+                ">
+                    <div class="message_icon
+                    text-white
+                    ">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-12
+                        -rotate-45
+                        ">
+                            <path
+                                d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                        </svg>
+                    </div>
+                    <div class="">
+                        <h2 class="
+                            text-3xl
+                            font-bold
+                            mb-3
+                        ">Signup For Newsletter</h2>
+                        <p class="
+                        
+                        ">We’ll never share your email address with a third-party.</p>
+                    </div>
+                </div>
+                <div class="subscribe_button
+                lg:w-2/5
+                lg:mx-auto
+                lg:pl-4
+                ">
+                    <div class="
+                    w-full
+                    mx-auto
+                    lg:flex
+                    lg:justify-end
+                    ">
+                        <input class="
+                        px-4
+                        py-2
+                        border
+                        border-gray-600
+                        rounded-l-full
+                        focus:outline-none
+                        " type="email" placeholder="Your email address...">
+                        <button class="
+                        bg-orange-600
+                        text-white
+                        py-[9px]
+                        px-4
+                        -ml-[6px]
+                        rounded-r-full
+                        " type="submit">Subscribe</button>
+                    </div>
+                </div>
+                <div class="social-icon
+                text-white
+                mt-3
+                lg:w-1/5
+                lg:flex
+                lg:justify-end
+                lg:gap-2
+                lg:items-center
+                ">
+                    <a href="#" class="
+                    text-white
+                    text-lg
+                    ">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a> |
+                    <a href="#" class="
+                    text-white
+                    text-lg  
+                    ">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a> |
+                    <a href="#" class="
+                    text-white
+                    text-lg  
+                    ">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </a> |
+                    <a href="#" class="
+                    text-white
+                    text-lg  
+                    ">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section  -->
+    <footer id="footer" class="
+     bg-white
+     ">
+        <div class="wrapper px-0 overflow-hidden py-8 border-b border-gray-900">
+            <div class="w-full
+            lg:flex
+            lg:gap-4
+            ">
+                <div class="
+                mb-5
+                lg:w-1/5
+                text-gray-900
+                ">
+                    <img class="
+                    w-[16rem]
+                    mb-4
+                    " src="./images/logo_main.webp" alt="">
+
+                    <div class="
+                    flex 
+                    gap-4
+                    ">
+                        <i class="fa-solid fa-map-location-dot text-3xl
+                        text-gray-900
+                        "></i>
+                        <p class="
+                        
+                        ">
+
+                            Gazi Tower (2th Floor)
+                            Signal, 151/6
+                            Panthapath, Dhaka- 1205
+                        </p>
+                    </div>
+                </div>
+
+                <div class="
+                mb-5
+                lg:w-1/5
+                lg:pl-4
+                ">
+                    <h2 class="
+                    uppercase
+                    font-bold
+                    text-lg
+                    text-gray-900
+                    mb-2
+                    ">information</h2>
+
+                    <div class="
+                    flex 
+                    gap-4
+                    ">
+                        <ul class="list-disc  list-inside">
+                            <li class="text-gray-500">
+                                <a href="#" class="">About Us</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">How To Order</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Delivery Infromation</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="
+                mb-5
+                lg:w-1/5
+                ">
+                    <h2 class="
+                    uppercase
+                    font-bold
+                    text-lg
+                    text-gray-900
+                    mb-2
+                    ">account</h2>
+
+                    <div class="
+                    flex 
+                    gap-4
+                    ">
+                        <ul class="list-disc  list-inside">
+                            <li class="text-gray-500">
+                                <a href="#" class="">My Account</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Register</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Login</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">User History</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="
+                mb-5
+                lg:w-1/5
+                ">
+                    <h2 class="
+                    uppercase
+                    font-bold
+                    text-lg
+                    text-gray-900
+                    mb-2
+                    ">services</h2>
+
+                    <div class="
+                    flex 
+                    gap-4
+                    ">
+                        <ul class="list-disc  list-inside">
+                            <li class="text-gray-500">
+                                <a href="#" class="">Contact Us</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Return</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Support</a>
+                            </li>
+                            <li class="text-gray-500">
+                                <a href="#" class="">Site Map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="
+                mb-5
+                lg:w-1/5
+                ">
+                    <h2 class="
+                    uppercase
+                    font-bold
+                    text-lg
+                    text-gray-900
+                    mb-2
+                    ">shop information</h2>
+
+                    <div class="
+                    flex 
+                    gap-4
+                    ">
+                        <ul class="list-inside">
+                            <li class="text-gray-500 flex items-start">
+                                <i class="fa-solid fa-headset mr-2 mt-2"></i>
+                                <a href="#" class="
+                                text-sm
+                                ">
+                                    <p>Store: 01800201352</p>
+                                    <p>Delivery: 01800201352</p>
+                                </a>
+                            </li>
+                            <li class="text-gray-500 flex items-start">
+                                <i class="fa-solid fa-headset mr-2 "></i>
+                                <a href="#" class="
+                                text-sm
+                                ">
+                                    <p>Support: 01603301870</p>
+                                </a>
+                            </li>
+                            <li class="text-gray-500 flex items-start">
+                                <i class="fa-solid fa-envelope mr-2"></i>
+                                <a href="#" class="
+                                text-sm
+                                ">
+                                    <p>Email: example@gmail.com</p>
+                                </a>
+                            </li>
+                            <li class="text-gray-500 flex items-start">
+                                <i class="fa-solid fa-clock mr-2"></i>
+                                <a href="#" class="
+                                text-sm
+                                ">
+                                    <p>Open Time: 10AM - 8PM</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper px-0 overflow-hidden border-0 my-5">
+            <img class="w-[90rem]" src="./images/payment.webp" alt="">
+        </div>
+
+        <div class="
+        py-4
+        bg-gray-900
+        text-gray-100
+        ">
+            <div class="wrapper px-0 overflow-hidden">
+                <p class="text-center text-sm">&copy; Copyright. All Right Reserved By Emon.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- js links  -->
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
